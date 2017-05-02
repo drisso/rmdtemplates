@@ -1,0 +1,24 @@
+---
+title: "Untitled"
+author: "Davide Risso"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  html_document: 
+    fig_height: 7
+    fig_width: 7
+    toc: yes
+    code_folding: hide
+    toc_float: yes
+---
+
+```{r options, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE, error=FALSE, message=FALSE, warning=FALSE)
+NMF::nmf.options(grid.patch=TRUE) #get rid of blank page in heatmap pdf
+```
+
+
+# Session Info
+
+```{r}
+sessionInfo()
+```
